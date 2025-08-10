@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anirudh Lomash - Insurance Consultant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .gallery-img {
+            transition: transform 0.3s;
+        }
+        .gallery-img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-blue-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <div class="flex justify-center space-x-8 mb-4">
+                <img src="data:image/jpeg;base64,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" alt="LIC India Logo" class="h-16">
+                <img src="data:image/png;base64,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" alt="Care Health Insurance Logo" class="h-16">
+            </div>
+            <h1 class="text-3xl font-bold">Anirudh Lomash - Insurance Consultant</h1>
+            <p class="mt-2">Your Trusted Partner for LIC India and Care Health Insurance</p>
+            <div class="mt-4">
+                <p>Contact: +91-8264789466 | +91-8872289592</p>
+                <p>Email: <a href="mailto:anirudh098761@gmail.com" class="underline">anirudh098761@gmail.com</a></p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-blue-600 text-white py-4 sticky top-0 z-10">
+        <div class="container mx-auto flex justify-center space-x-6">
+            <a href="#home" class="hover:underline">Home</a>
+            <a href="#services" class="hover:underline">Services</a>
+            <a href="#reminder" class="hover:underline">Policy Reminder</a>
+            <a href="#help" class="hover:underline">Help & Rules</a>
+            <a href="#gallery" class="hover:underline">Photo Gallery</a>
+            <a href="#contact" class="hover:underline">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto py-8">
+        <!-- Home Section -->
+        <section id="home" class="mb-12">
+            <h2 class="text-2xl font-bold text-center mb-4">Welcome to Your Insurance Solutions</h2>
+            <p class="text-center max-w-2xl mx-auto">As an experienced insurance consultant, I provide personalized guidance for LIC India and Care Health Insurance products. Explore our services, renew your policies, set reminders, and more.</p>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="mb-12">
+            <h2 class="text-2xl font-bold text-center mb-4">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">LIC India</h3>
+                    <p>Access a wide range of life insurance plans with tax benefits and multiple cover options.</p>
+                    <div class="mt-4 space-y-2">
+                        <a href="https://ebiz.licindia.in/D2CPM/#DirectPay" target="_blank" class="block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 text-center">Renew Policy</a>
+                        <a href="https://ebiz.licindia.in/D2CPM/?_ga=2.72703123.1272923387.1677050657-120722208.1677050657#Login" target="_blank" class="block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 text-center">Customer Portal</a>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Care Health Insurance</h3>
+                    <p>Comprehensive health insurance plans for you and your family.</p>
+                    <div class="mt-4">
+                        <a href="https://selfcare.careinsurance.com/" target="_blank" class="block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 text-center">Customer Service</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Policy Due Reminder Section -->
+        <section id="reminder" class="mb-12">
+            <h2 class="text-2xl font-bold text-center mb-4">Policy Due Reminder</h2>
+            <p class="text-center max-w-2xl mx-auto mb-6">Set up a reminder for your policy due dates. We'll send you an email when your premium is due.</p>
+            <form id="reminder-form" class="bg-white p-6 rounded-lg shadow-md max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label for="email" class="block text-sm font-medium">Email</label>
+                    <input type="email" id="email" name="email" required class="w-full p-2 border rounded">
+                </div>
+                <div class="mb-4">
+                    <label for="dob" class="block text-sm font-medium">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" required class="w-full p-2 border rounded">
+                </div>
+                <div class="mb-4">
+                    <label for="start-date" class="block text-sm font-medium">Policy Start Date</label>
+                    <input type="date" id="start-date" name="start-date" required class="w-full p-2 border rounded">
+                </div>
+                <div class="mb-4">
+                    <label for="payment-duration" class="block text-sm font-medium">Payment Duration</label>
+                    <select id="payment-duration" name="payment-duration" required class="w-full p-2 border rounded">
+                        <option value="monthly">Monthly</option>
+                        <option value="quarterly">Quarterly</option>
+                        <option value="half-yearly">Half-Yearly</option>
+                        <option value="yearly">Yearly</option>
+                    </select>
+                </div>
+                <button type="submit" class="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Set Reminder</button>
+            </form>
+        </section>
+
+        <!-- Help & Rules Section -->
+        <section id="help" class="mb-12">
+            <h2 class="text-2xl font-bold text-center mb-4">Help & Rules</h2>
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">LIC India - Lapsed Policy Revival</h3>
+                    <p>A policy lapses if premiums are not paid within the grace period (15 days for monthly, 30 days for quarterly/half-yearly/yearly). To revive a lapsed policy, submit a written request, provide evidence of good health, and pay all arrears with interest. Use Form No. 680 or 720, available at <a href="https://licindia.in" target="_blank" class="underline">licindia.in</a>. Contact your nearest LIC branch for assistance.</p>[](https://licindia.in/faqs)
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">LIC India - Claims Procedure</h3>
+                    <p>For death claims, submit Claim Form 'A' (Form No. 3783) or 3783A (if policy ran for 3+ years), a certified death register extract, and the original policy document. For maturity claims, submit Form No. 3825 one month before the due date. Download forms from <a href="https://licindia.in" target="_blank" class="underline">licindia.in</a>.</p>[](https://licindia.in/download-forms)
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Care Health Insurance - Policy Renewal</h3>
+                    <p>Renew your policy online via the Care Health customer portal at <a href="https://selfcare.careinsurance.com/" target="_Preganant">selfcare.careinsurance.com</a>. Ensure timely renewal to avoid lapse. Contact customer support for assistance.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <section id="gallery" class="mb-12">
+            <h2 class="text-2xl font-bold text-center mb-4">Photo Gallery</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <img src="https://via.placeholder.com/300x200?text=Insurance+Event" alt="Insurance Event" class="gallery-img rounded-lg shadow-md">
+                <img src="https://via.placeholder.com/300x200?text=Client+Meeting" alt="Client Meeting" class="gallery-img rounded-lg shadow-md">
+                <img src="https://via.placeholder.com/300x200?text=Award+Ceremony" alt="Award Ceremony" class="gallery-img rounded-lg shadow-md">
+                <img src="https://via.placeholder.com/300x200?text=Office" alt="Office" class="gallery-img rounded-lg shadow-md">
+            </div>
+        </section>
+
+        </a></p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-blue-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Anirudh Lomash Insurance Consultancy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Policy Reminder -->
+    <script>
+        document.getElementById('reminder-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const email = document.getElementById('email').value;
+            const dob = document.getElementById('dob').value;
+            const startDate = document.getElementById('start-date').value;
+            const paymentDuration = document.getElementById('payment-duration').value;
+
+            // Calculate next due date based on payment duration
+            const start = new Date(startDate);
+            let nextDueDate;
+            const today = new Date();
+
+            switch(paymentDuration) {
+                case 'monthly':
+                    nextDueDate = new Date(start);
+                    while(nextDueDate <= today) {
+                        nextDueDate.setMonth(nextDueDate.getMonth() + 1);
+                    }
+                    break;
+                case 'quarterly':
+                    nextDueDate = new Date(start);
+                    while(nextDueDate <= today) {
+                        nextDueDate.setMonth(nextDueDate.getMonth() + 3);
+                    }
+                    break;
+                case 'half-yearly':
+                    nextDueDate = new Date(start);
+                    while(nextDueDate <= today) {
+                        nextDueDate.setMonth(nextDueDate.getMonth() + 6);
+                    }
+                    break;
+                case 'yearly':
+                    nextDueDate = new Date(start);
+                    while(nextDueDate <= today) {
+                        nextDueDate.setFullYear(nextDueDate.getFullYear() + 1);
+                    }
+                    break;
+            }
+
+            // Prepare data to send
+            const formData = {
+                email,
+                dob,
+                startDate,
+                paymentDuration,
+                nextDueDate: nextDueDate.toISOString().split('T')[0]
+            };
+
+            // Send data to rajeshamritsar.lic@gmail.com
+            // Note: This requires a backend service (e.g., EmailJS or Node.js with Nodemailer)
+            console.log('Sending data to rajeshamritsar.lic@gmail.com:', formData);
+            // Example using EmailJS (uncomment and configure with your EmailJS account)
+            /*
+            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
+                to_email: 'rajeshamritsar.lic@gmail.com',
+                user_email: email,
+                dob: dob,
+                start_date: startDate,
+                payment_duration: paymentDuration,
+                next_due_date: formData.nextDueDate
+            }).then(response => {
+                console.log('Data sent successfully:', response);
+            }).catch(error => {
+                console.error('Error sending data:', error);
+            });
+            */
+
+            // Simulate sending reminder to user's email
+            alert(`Reminder set! You will receive an email on ${formData.nextDueDate} for your policy due date.`);
+
+            // Reset form
+            this.reset();
+        });
+    </script>
+</body>
+</html>
